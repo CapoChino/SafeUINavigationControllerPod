@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'SafeUINavigationController', :exclusive => true do
+  pod "SafeUINavigationController", :path => "../"
+
+  
+end
