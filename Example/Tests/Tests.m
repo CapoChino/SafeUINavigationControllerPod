@@ -6,4 +6,4 @@
 //  Copyright (c) 2014 Casey Persson. All rights reserved.
 //
 
-${TEST_EXAMPLE}
+//${TEST_EXAMPLE}

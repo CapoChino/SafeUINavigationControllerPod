@@ -1,0 +1,14 @@
+PODS:
+  - SafeUINavigationController (0.1.0)
+
+DEPENDENCIES:
+  - SafeUINavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  SafeUINavigationController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SafeUINavigationController: ac41725cd0d2203734c069562a94531ea9f8d39e
+
+COCOAPODS: 0.34.2

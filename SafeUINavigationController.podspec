@@ -9,28 +9,18 @@
 
 Pod::Spec.new do |s|
   s.name             = "SafeUINavigationController"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of SafeUINavigationController."
-  s.description      = <<-DESC
-                       An optional longer description of SafeUINavigationController
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SafeUINavigationController"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.version          = "1.0.0"
+  s.summary          = "A drop-in replacement for UINavigationController to serialize transistions."
+  s.homepage         = "https://github.com/CapoChino/SafeUINavigationController"
   s.license          = 'MIT'
   s.author           = { "Casey Persson" => "casey.persson@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SafeUINavigationController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
+  s.source           = { :git => "https://github.com/CapoChino/SafeUINavigationController.git", :tag => s.version.to_s }
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'SafeUINavigationController' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'SafeUINavigationController' => ['Pod/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
